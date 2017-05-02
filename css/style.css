@@ -1,0 +1,21 @@
+.output {
+	font-family: "Slabo";
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 20px;
+	width: 30%;
+	height: 50%;
+
+}
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-around;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
