@@ -40,10 +40,15 @@ function chrisApi(post) {
         resultDiv += "<div class = 'date'>" 
         resultDiv += dateChange(post.date) 
         resultDiv += "</div>" 
-    resultDiv += " " 
-        resultDiv += "<div class='title'>" 
-        resultDiv += post.title 
-        resultDiv += "</div></div>";
+        resultDiv += " " 
+            resultDiv += "<div class='title'>" 
+            resultDiv += post.title 
+            resultDiv += "<hr class='line'></hr>"
+                resultDiv += "<div class='cats'>"
+                resultDiv += post.categories
+                resultDiv += "</div>"
+    resultDiv += "</div></div>";
+                
     
     searchResults.innerHTML += resultDiv;
 
